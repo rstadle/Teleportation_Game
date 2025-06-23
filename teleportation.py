@@ -8,7 +8,7 @@ from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit.circuit.library import Initialize
 
 
-from utils.ibm_qc_interface import ideal_simulator, noisy_simulator
+from ibm_qc_interface import ideal_simulator, noisy_simulator
 
 
 def bloch_to_statevector(bloch_vec):
